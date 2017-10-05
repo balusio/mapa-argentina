@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <title>Gecoa</title>
+    <style>
+    	.provincia-central{
+    		fill:rgba(255,255,255,0);
+    		stroke:#ffffff;
+    		stroke-width:1px;
+    	}
+    	.active{
+    		fill:none;
+    	}
+    	.municipio{
+    		fill:#eeeeee;
+    		stroke:#c1c1c1;
+    	}
+    	.municipio:hover{
+    		fill: red;
+    	}
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="text">
+    	<p id="textPlace"></p>
+    	<p id="showWater"></p>
+    </div>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="main-new.js"></script>
+  </body>
+</html>
